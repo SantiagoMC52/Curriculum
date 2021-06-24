@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #282A35;
+    min-height: 100px;
+    border-radius: 6px;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        width: 100%;
+
+        li {
+            color: white;
+            font-size: 30px;
+
+            &:hover {
+                color: #feda6a;
+            }
+        }
+    }
+}
