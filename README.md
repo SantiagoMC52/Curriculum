@@ -8,4 +8,5 @@
 
 ## How to run the app
 - Run `npm install` in both folders, client and server
+- Add in a file called .env your database string connection
 - To start the app run `npm start` in both folders, client and server
